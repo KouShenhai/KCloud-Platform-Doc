@@ -8,7 +8,7 @@
     "updateTheme": "yarn remove KCloud-Platform-Alibaba && rm -rf node_modules && yarn && yarn add KCloud-Platform-Alibaba -D",
     "editFm": "node utils/editFrontmatter.js"
   },
-  "license": "MIT",
+  "license": "Apache 2.0",
   "devDependencies": {
     "dayjs": "^1.9.7",
     "inquirer": "^7.1.0",
