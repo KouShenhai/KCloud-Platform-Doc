@@ -1,7 +1,7 @@
 <p align="center">
-<a href="https://xugaoyi.com/" target="_blank" rel="老寇云">
-<img src="doc/image/logo.png" width="625" height="205" alt="图标"/>
-</a>
+    <a href="https://github.com/KouShenhai" target="_blank" rel="老寇云">
+        <img src="docs/.vuepress/public/img/1/logo.png" width="625" height="205" alt="图标"/>
+    </a>
 </p>
 
 <h2 align="left">KCloud-Platform-Alibaba</h2>
