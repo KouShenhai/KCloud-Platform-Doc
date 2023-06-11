@@ -23,7 +23,16 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '赞助', link: '/pages/1b12ed/' },
+      {
+        text: '指南', link: '/pages/a2f161/', items: [
+          {
+            text: '环境搭建', items: [
+              { text: '安装Mysql 8.0.32', link: '/pages/a2f161/' },
+            ]
+          }
+        ]
+      },
+      { text: '赞助', link: '/pages/1b12ed/' }
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
