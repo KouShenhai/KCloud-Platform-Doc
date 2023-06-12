@@ -28,6 +28,7 @@ module.exports = {
           {
             text: '环境搭建', items: [
               { text: 'Centos7安装Mysql 8.0.33', link: '/pages/a2f161/' },
+              { text: 'Centos7安装Redis 7.0.11', link: '/pages/90401a/' },
             ]
           }
         ]
