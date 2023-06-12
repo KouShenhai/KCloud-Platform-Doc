@@ -27,7 +27,7 @@ module.exports = {
         text: '指南', link: '/pages/a2f161/', items: [
           {
             text: '环境搭建', items: [
-              { text: '安装Mysql 8.0.32', link: '/pages/a2f161/' },
+              { text: 'Centos7安装Mysql 8.0.33', link: '/pages/a2f161/' },
             ]
           }
         ]
