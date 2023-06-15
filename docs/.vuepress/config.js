@@ -32,6 +32,67 @@ module.exports = {
               { text: 'Centos7安装RocketMQ 5.1.1', link: '/pages/0fb88c/' },
               { text: '04.Centos7安装Jdk 17.0.7', link: '/pages/65acfd/' },
             ]
+          },
+          {
+            text: '快速上手', items: [
+              { text: '项目启动', link: '' },
+              { text: 'API网关', link: '' },
+              { text: '认证授权', link: '' },
+              { text: '服务注册&发现', link: '' },
+              { text: '配置中心', link: '' },
+              { text: '分布式事务', link: ''},
+              { text: '多级缓存', link: '' },
+              { text: '数据推送', link: '' },
+              { text: '消息队列', link: '' },
+              { text: '服务熔断&降级', link: '' },
+              { text: '远程调用', link: '' },
+              { text: '链路跟踪', link: '' },
+              { text: '对象存储', link: '' },
+              { text: '日志分析', link: '' },
+              { text: '分布式锁', link: '' },
+              { text: '服务监控', link: '' },
+              { text: '读写分离&分库分表', link: '' },
+              { text: '多数据源', link: '' },
+              { text: '数据库版本控制', link: '' },
+              { text: '持续集成&交付', link: '' },
+              { text: '自动化部署', link: '' },
+              { text: '接口幂等性', link: '' },
+              { text: '接口安全', link: '' },
+              { text: 'XSS攻击', link: '' },
+              { text: '统计报表', link: '' },
+            ]
+          },
+          {
+            text: '系统设计', items: [
+              { text: '高可用设计', link: '' },
+              { text: '多租户设计', link: '' },
+              { text: '权限设计', link: '' },
+            ]
+          },
+          {
+            text: '工具使用', items: [
+              { text: 'Git使用', link: '' },
+              { text: 'Maven使用', link: '' },
+              { text: 'Docker使用', link: '' },
+              { text: 'Jenkins使用', link: '' }
+            ]
+          },
+          {
+            text: '第三方对接', items: [
+              { text: '微信公众号', link: '' }
+            ]
+          },
+          {
+            text: '脚本使用', items: [
+              { text: 'Shell脚本使用', link: '' },
+              { text: 'Lua脚本使用', link: '' },
+              { text: 'Bat脚本使用', link: '' }
+            ]
+          },
+          {
+            text: '技术分享', items: [
+              { text: 'RocketMQ的冒险之旅（先占占位置）', link: '' }
+            ]
           }
         ]
       },
