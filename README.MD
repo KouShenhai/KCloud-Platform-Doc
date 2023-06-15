@@ -11,3 +11,18 @@ Github 前端地址：[KCloud-Antdv-Alibaba](https://github.com/KouShenhai/KClou
 
 Gtiee 后端地址：[KCloud-Platform-Alibaba](https://gitee.com/laokouyun/KCloud-Platform-Alibaba)  
 Gitee 前端地址：[KCloud-Antdv-Alibaba](https://gitee.com/laokouyun/KCloud-Antdv-Alibaba)
+
+# 运行文档
+```shell
+# 安装
+npm install
+
+# 运行
+npm run dev
+
+# 打包
+npm run build
+```
+
+# 致谢
+[vuepress-theme-vdoing](https://github.com/xugaoyi/vuepress-theme-vdoing) 🚀一款简洁高效的VuePress知识管理&博客(blog)主题
