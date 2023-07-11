@@ -25,4 +25,4 @@ npm run build
 ```
 
 # 致谢
-[vuepress-theme-vdoing](https://github.com/xugaoyi/vuepress-theme-vdoing) 🚀一款简洁高效的VuePress知识管理&博客(blog)主题
+[vuepress-theme-vdoing](https://github.com/xugaoyi/vuepress-theme-vdoing) 🚀一个简洁高效的VuePress知识管理&博客(blog)主题
