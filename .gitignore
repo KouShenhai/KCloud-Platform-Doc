@@ -26,3 +26,5 @@ replay_pid*
 node_modules
 
 docs/.vuepress/dist
+
+.idea
