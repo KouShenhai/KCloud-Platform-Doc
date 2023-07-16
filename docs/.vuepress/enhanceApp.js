@@ -16,25 +16,25 @@ export default ({
       docReady(function () {
         setTimeout(function () {
           if (window._AdBlockInit === undefined) {
-            ABDetected();
+            //ABDetected();
           }
         }, 3000);
       });
 
       // 删除事件改为隐藏事件
       setTimeout(() => {
-        const pageAD = document.querySelector('.page-wwads');
-        if (!pageAD) return;
-        const btnEl = pageAD.querySelector('.wwads-hide');
-        if (btnEl) {
-          btnEl.onclick = () => {
-            pageAD.style.display = 'none';
-          }
-        }
-        // 显示广告模块
-        if (pageAD.style.display === 'none') {
-          pageAD.style.display = 'flex';
-        }
+        // const pageAD = document.querySelector('.page-wwads');
+        // if (!pageAD) return;
+        // const btnEl = pageAD.querySelector('.wwads-hide');
+        // if (btnEl) {
+        //   btnEl.onclick = () => {
+        //     pageAD.style.display = 'none';
+        //   }
+        // }
+        // // 显示广告模块
+        // if (pageAD.style.display === 'none') {
+        //   pageAD.style.display = 'flex';
+        // }
       }, 900);
     })
   }
