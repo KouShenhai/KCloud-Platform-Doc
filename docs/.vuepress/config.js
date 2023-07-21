@@ -30,6 +30,7 @@ module.exports = {
               { text: 'Centos7安装Redis 7.0.11', link: '/pages/90401a/' },
               { text: 'Centos7安装RocketMQ 5.1.1', link: '/pages/0fb88c/' },
               { text: '04.Centos7安装Jdk 17.0.7', link: '/pages/65acfd/' },
+              { text: '05.Centos7安装Docker 23.0.6', link: '/pages/65acff/' },
             ]
           },
           {
