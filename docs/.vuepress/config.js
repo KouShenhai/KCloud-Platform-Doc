@@ -26,11 +26,11 @@ module.exports = {
         text: '指南', link: '/pages/a2f161/', items: [
           {
             text: '环境搭建', items: [
-              { text: 'Centos7安装Mysql 8.0.33', link: '/pages/a2f161/' },
-              { text: 'Centos7安装Redis 7.0.11', link: '/pages/90401a/' },
+              { text: 'Centos7安装Mysql 8.0.33',   link: '/pages/a2f161/' },
+              { text: 'Centos7安装Redis 7.0.11',   link: '/pages/90401a/' },
               { text: 'Centos7安装RocketMQ 5.1.1', link: '/pages/0fb88c/' },
-              { text: 'Centos7安装Jdk 17.0.7', link: '/pages/65acfd/' },
-              { text: 'Centos7安装Docker 23.0.6', link: '/pages/65acff/' },
+              { text: 'Centos7安装Jdk 17.0.7',     link: '/pages/65acfd/' },
+              { text: 'Centos7安装Docker 23.0.6',  link: '/pages/65acff/' },
             ]
           },
           {
