@@ -14,8 +14,8 @@ module.exports = {
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
     ['meta', { name: 'keywords', content: 'vuepress,theme,blog,vdoing' }],
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
-    ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
-    ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
+    // ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
+    // ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
   ],
 
   // 主题配置
@@ -31,6 +31,7 @@ module.exports = {
               { text: 'Centos7安装RocketMQ 5.1.1', link: '/pages/0fb88c/' },
               { text: 'Centos7安装Jdk 17.0.7',     link: '/pages/65acfd/' },
               { text: 'Centos7安装Docker 23.0.6',  link: '/pages/65acff/' },
+              { text: 'Docker安装RabbitMQ 3.12.2', link: '/pages/552b64/' }
             ]
           },
           {
