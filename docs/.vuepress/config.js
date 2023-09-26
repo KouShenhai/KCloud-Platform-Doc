@@ -37,7 +37,7 @@ module.exports = {
           {
             text: '快速上手', link: '/pages/10bfa7/' , items: [
               { text: '项目启动', link: '/pages/10bfa7/' },
-              { text: 'API网关', link: '/' },
+              { text: 'API网关', link: '/pages/192acb/' },
               { text: '认证授权', link: '/' },
               { text: '服务注册&发现', link: '/' },
               { text: '配置中心', link: '/' },
