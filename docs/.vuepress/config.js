@@ -38,7 +38,7 @@ module.exports = {
             text: '快速上手', link: '/pages/10bfa7/' , items: [
               { text: '项目启动', link: '/pages/10bfa7/' },
               { text: 'API网关', link: '/pages/192acb/' },
-              { text: '认证授权', link: '/' },
+              { text: '认证授权', link: '/pages/36da89/' },
               { text: '服务注册&发现', link: '/' },
               { text: '配置中心', link: '/' },
               { text: '分布式事务', link: '/'},
