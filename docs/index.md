@@ -35,24 +35,6 @@ postList: none
 
 <br/>
 
-## ⚡ 反馈与交流
-
-在使用过程中有任何问题和想法，请给我提 [Issue](https://github.com/KouShenhai/KCloud-Platform-Alibaba/issues)。
-你也可以在Issue查看别人提的问题和给出解决方案。
-
-我们的交流群：
-
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="middle">
-        <img :src="$withBase('/img/qrcode/qqq.png')" alt="群号: 465450496" class="no-zoom" style="width:120px;margin: 10px;">
-        <p>KCloud-Platform开源交流 QQ群: 465450496</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
 ## 🙋 培训与交流
 <table>
     <tr>
@@ -70,6 +52,24 @@ postList: none
         <td>￥ 399</td>
         <td>技术培训 + 解决问题 + 一对一售后群 + 个性功能增强</td>
     </tr>
+</table>
+
+## ⚡ 反馈与交流
+
+在使用过程中有任何问题和想法，请给我提 [Issue](https://github.com/KouShenhai/KCloud-Platform-Alibaba/issues)。
+你也可以在Issue查看别人提的问题和给出解决方案。
+
+我们的交流群：
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="middle">
+        <img :src="$withBase('/img/qrcode/qqq.png')" alt="群号: 465450496" class="no-zoom" style="width:120px;margin: 10px;">
+        <p>KCloud-Platform开源交流 QQ群: 465450496</p>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 
