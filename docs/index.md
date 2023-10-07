@@ -53,6 +53,25 @@ postList: none
   </tbody>
 </table>
 
+## 🙋 培训与交流
+<table>
+    <tr>
+        <th>套餐</th>
+        <th>金额</th>
+        <th>权益（永久）</th>
+    </tr>
+    <tr>
+        <td>学生</td>
+        <td>￥ 199</td>
+        <td>技术培训 + 解决问题 + 一对一售后群 + 个性功能增强（需提供学生证）</td>
+    </tr>
+    <tr>
+        <td>个人</td>
+        <td>￥ 399</td>
+        <td>技术培训 + 解决问题 + 一对一售后群 + 个性功能增强</td>
+    </tr>
+</table>
+
 
 <!-- AD -->
 <div class="wwads-cn wwads-horizontal page-wwads" data-id="136"></div>
