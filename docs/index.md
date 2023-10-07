@@ -53,7 +53,7 @@ postList: none
         <td>技术培训 + 解决问题 + 一对一售后群 + 个性功能增强</td>
     </tr>
 </table><br/>
-<img src="doc/image/wx.png" width="300" height="300">
+<img src="docs/.vuepress/public/img/wx.png" width="300" height="300">
 
 ## ⚡ 反馈与交流
 
