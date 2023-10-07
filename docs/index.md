@@ -52,7 +52,8 @@ postList: none
         <td>￥ 399</td>
         <td>技术培训 + 解决问题 + 一对一售后群 + 个性功能增强</td>
     </tr>
-</table>
+</table><br/>
+<img src="doc/image/wx.jpg" width="300" height="300">
 
 ## ⚡ 反馈与交流
 
