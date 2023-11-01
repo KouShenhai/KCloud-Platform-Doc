@@ -35,7 +35,7 @@ postList: none
 
 <br/>
 
-## 🙋 培训与交流
+## 🙋 培训交流
 <table>
     <tr>
         <th>套餐</th>
@@ -45,15 +45,19 @@ postList: none
     <tr>
         <td>学生</td>
         <td>￥ 199</td>
-        <td>技术培训 + 解决问题 + 一对一售后群 + 个性功能增强（需提供学生证）</td>
+        <td>项目演示 + 视频教程（筹划中） + 解决问题（优先） + 一对一售后群 + 个性功能增强</td>
     </tr>
     <tr>
         <td>个人</td>
         <td>￥ 399</td>
-        <td>技术培训 + 解决问题 + 一对一售后群 + 个性功能增强</td>
+        <td>项目演示 + 视频教程（筹划中） + 解决问题（优先） + 一对一售后群 + 个性功能增强</td>
     </tr>
-</table><br/>
-<img src="img/wx.png" width="300" height="300">
+</table>
+<div>
+<img src="/img/wx.png" width="300" height="300" alt="暂无图片">
+<img src="/img/wxq.png" width="300" height="300" alt="暂无图片">
+<img src="/img/qqq.png" width="300" height="300" alt="暂无图片">
+</div>
 
 ## ⚡ 反馈与交流
 
