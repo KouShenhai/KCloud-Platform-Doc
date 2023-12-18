@@ -31,8 +31,9 @@ module.exports = {
               { text: 'Centos7安装RocketMQ 5.1.1', link: '/pages/0fb88c/' },
               { text: 'Centos7安装Jdk 17.0.7',     link: '/pages/65acfd/' },
               { text: 'Centos7安装Docker 23.0.6',  link: '/pages/65acff/' },
+              { text: 'Centos7安装Elasticsearch 8.6.2', link: '/pages/d715cf/'},
               { text: 'Docker安装RabbitMQ 3.12.2', link: '/pages/552b64/' },
-              { text: 'Centos7安装Elasticsearch 8.6.2', link: '/pages/d715cf/'}
+              { text: 'Docker安装Postgresql 16.1', link: '/pages/d715cb/'}
             ]
           },
           {
