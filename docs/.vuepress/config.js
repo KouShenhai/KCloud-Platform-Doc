@@ -38,7 +38,8 @@ module.exports = {
           },
           {
             text: '常用命令', items: [
-              { text: 'Centos7常用命令（傻瓜式笔记）', link: '/pages/76bfa2/' }
+              { text: 'Centos7常用命令（傻瓜式笔记）', link: '/pages/76bfa2/' },
+              { text: 'Centos7常用命令（傻瓜式笔记）', link: '/pages/2f475f/' }
             ]
           },
           {
