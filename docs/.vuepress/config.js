@@ -70,7 +70,7 @@ module.exports = {
               { text: '接口安全', link: '/' },
               { text: 'XSS攻击', link: '/' },
               { text: '统计报表', link: '/' },
-              { text: 'SSL证书', link: '/pages/10bfa8/' },
+              { text: 'SSL证书（傻瓜式教程）', link: '/pages/10bfa8/' },
             ]
           },
           {
