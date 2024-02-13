@@ -46,7 +46,7 @@ module.exports = {
             text: '快速上手', link: '/pages/10bfa7/' , items: [
               { text: '一键部署（傻瓜式教程）', link: '/pages/10bfa2/' },
               { text: '项目启动（傻瓜式教程）', link: '/pages/10bfa7/' },
-              { text: 'API网关', link: '/pages/192acb/' },
+/*              { text: 'API网关', link: '/pages/192acb/' },
               { text: '认证授权', link: '/pages/36da89/' },
               { text: '服务注册&发现', link: '/' },
               { text: '配置中心', link: '/' },
@@ -69,11 +69,17 @@ module.exports = {
               { text: '接口幂等性', link: '/' },
               { text: '接口安全', link: '/' },
               { text: 'XSS攻击', link: '/' },
-              { text: '统计报表', link: '/' },
-              { text: 'SSL证书（傻瓜式教程）', link: '/pages/10bfa8/' },
+              { text: '统计报表', link: '/' },*/
+              { text: 'SSL证书（傻瓜式教程）', link: '/pages/10bfa8/' }
             ]
           },
           {
+            text: '领域驱动设计', items: [
+              { text: 'DDD落地之Seata Saga（一）', link: '/pages/842323/' },
+              { text: 'DDD落地之Seata Saga（二）', link: '/' }
+            ]
+          }
+          /*{
             text: '系统设计', items: [
               { text: '高可用设计', link: '/' },
               { text: '多租户设计', link: '/' },
@@ -109,7 +115,7 @@ module.exports = {
             text: '架构演进', items: [
               { text: '老寇云平台架构演进（先占占位置）', link: '/' }
             ]
-          }
+          }*/
         ]
       },
       { text: '赞助', link: '/pages/1b12ed/' }
