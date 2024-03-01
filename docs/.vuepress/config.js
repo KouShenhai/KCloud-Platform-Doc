@@ -118,6 +118,10 @@ module.exports = {
           }*/
         ]
       },
+      { text: '感悟', link: '/pages/623577/', items: [
+          { text: '读《强者，都是含泪奔跑的人》读后感', link: '/pages/623577/' }
+        ]
+      },
       { text: '赞助', link: '/pages/1b12ed/' }
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
