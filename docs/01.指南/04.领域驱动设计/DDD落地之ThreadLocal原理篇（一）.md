@@ -4,7 +4,101 @@ date: 2024-02-20 17:51:40
 permalink: /pages/1e7000/
 ---
 
+你好呀，我的老朋友！我是老寇，欢迎来到老寇云平台！   
+话不多说，跟我一起学习ThreadLocal。
+
 #### 介绍
 它为每个线程提供一个本地变量副本，意味着每个线程都可以独立改变自己的副本，不会与其他线程的副本相冲突（线程隔离）
 
-#### 
+#### 原理
+首先，我们一起看看```Thread源码```
+```java
+public class Thread implements Runnable {
+    
+    // ...
+    
+    /*
+     * 与此线程相关的ThreadLocal值，由ThreadLocal类维护
+     */
+    ThreadLocal.ThreadLocalMap threadLocals;
+
+    /*
+     * 与此线程相关的InheritableThreadLocal值，由InheritableThreadLocal类维护
+     */
+    ThreadLocal.ThreadLocalMap inheritableThreadLocals;
+    
+    // ..
+    
+}
+```
+Thread类维护了 ``` threadLocals```和```inheritableThreadLocals``` 变量，这两个变量默认为```null```  
+
+因此，我们一起看看```ThreadLocal源码```   
+
+```ThreadLocal```的```set()``` 方法
+```java
+    public void set(T value) {
+        // 获取当前线程
+        Thread t = Thread.currentThread();
+        // 哈希结构
+        ThreadLocalMap map = getMap(t);
+        if (map != null) {
+            // 写入哈希表
+            map.set(this, value);
+        } else {
+            // 创建哈希表
+            createMap(t, value);
+        }
+        // 如果是虚拟线程，则转储堆栈（这个先不讨论，请忽略）
+        if (TRACE_VTHREAD_LOCALS) {
+            dumpStackIfVirtualThread();
+        }
+    }
+    ThreadLocalMap getMap(Thread t) {
+        // threadLocals变量，见上文
+        return t.threadLocals;
+    }
+```
+
+因此，变量值是存在当前线程```Thread.ThreadLocalMap```里面的
+
+我们一起看一看```ThreadLocalMap源码```
+```java
+static class ThreadLocalMap {
+    ThreadLocalMap(ThreadLocal<?> firstKey, Object firstValue) {
+        // ...
+    }
+}
+```
+因此，我们可以看到，每一个```Thread```维护两个```ThreadLocalMap```，```ThreadLocalMap```存储以```ThreadLocal```为key，Object对象为value的键值对
+
+我们一起画一个简洁的图，加深理解  
+<img src="/img/ddd/img.png" height='250'/>
+
+我们一起看看```ThreadLocalMap内部```
+```java
+        static class Entry extends WeakReference<ThreadLocal<?>> {
+            Object value;
+            Entry(ThreadLocal<?> k, Object v) {
+                // 弱引用
+                super(k);
+                value = v;
+            }
+        }
+```
+我们可以看到，Entry是弱引用，我们一起了解一下，弱引用是什么？强引用又是什么？软引用？虚引用？  
+
+首先，4种级别```从高到低```依次为：```强引用```，```软引用```，```弱引用```，```虚引用```
+###### 1.强引用
+强引用对象，即使内存不足，JVM抛出内存溢出错误（OOM）使程序异常终止，GC也不会随意回收具有```强引用```的对象
+###### 2.软引用
+软引用对象，内存充足时，GC不会回收，内存不足时，GC回收它
+###### 3.弱引用
+弱引用对象，具有短暂的生命周期，不管当前内存是否足够，GC都会回收它，GC是一个优先级很低的线程，不一定会很快发现具有弱引用的对象（和引用队列联合使用，被GC回收，会把它加到与之关联的引用队列中）
+###### 4.虚引用
+虚引用对象，和没有任何引用对象一样，任何时候都会被GC回收
+
+###### 结论
+因此，结合上述这些源码及概念，我们可以看出，key为```ThreadLocal```的弱引用，value是强引用，```ThreadLocal```在外部没有强引用的情况下，GC会回收key，而value不会被回收。   
+
+这样就出现了key为```null```的Entry，我们不做任何的措施情况下，value永远不会被回收，这样就有可能造成内存泄露，所以，我们写代码时，最后一定要手动调用```remove()```方法
