@@ -53,6 +53,7 @@ postList: none
   </tbody>
 </table>
 
+<div align="center">巅峰诞生虚伪的拥护，黄昏见证虔诚的信徒</div>
 
 <!-- AD -->
 <div class="wwads-cn wwads-horizontal page-wwads" data-id="136"></div>
