@@ -122,7 +122,8 @@ module.exports = {
       },
       { text: '感悟', link: '/pages/623577/', items: [
           { text: '读《强者，都是含泪奔跑的人》读后感', link: '/pages/623577/' },
-          { text: '修身/养生/情感', link: '/pages/623578/' }
+          { text: '修身/养生/情感', link: '/pages/623578/' },
+          { text: '宇宙是一个数据库', link: '/pages/623579/' }
         ]
       },
       { text: '赞助', link: '/pages/1b12ed/' }
