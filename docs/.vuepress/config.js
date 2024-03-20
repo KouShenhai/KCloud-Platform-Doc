@@ -80,6 +80,11 @@ module.exports = {
               { text: 'DDD落地之ThreadLocal原理篇（一）', link: '/pages/1e7000/' },
               { text: 'DDD落地之AQS原理篇（一）', link: '/pages/b56e84/' }
             ]
+          },
+          {
+            text: 'SpringBoot篇', items: [
+              { text: 'SpringBoot自动装配', link: '/pages/1e7002/' }
+            ]
           }
           /*{
             text: '系统设计', items: [
