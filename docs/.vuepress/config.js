@@ -74,7 +74,7 @@ module.exports = {
             ]
           },
           {
-            text: '领域驱动设计', items: [
+            text: '领域驱动设计篇', items: [
               { text: 'DDD落地之Seata Saga（一）', link: '/pages/842323/' },
               { text: 'DDD落地之Seata Saga（二）', link: '/pages/854f03/' },
               { text: 'DDD落地之ThreadLocal原理篇（一）', link: '/pages/1e7000/' },
