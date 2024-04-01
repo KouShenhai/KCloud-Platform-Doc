@@ -85,6 +85,11 @@ module.exports = {
             text: 'SpringBoot篇', items: [
               { text: 'SpringBoot自动装配', link: '/pages/1e7002/' }
             ]
+          },
+          {
+            text: 'Go篇', items: [
+              { text: 'Java如何快速转Go', link: '/pages/643da2/' }
+            ]
           }
           /*{
             text: '系统设计', items: [
