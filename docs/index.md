@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /img/logo.png
-heroText: KCloud-Platform-Alibaba
-tagline: 🚀一个企业级微服务架构的云平台
+heroText: KCloud-Platform-IoT
+tagline: 🚀一个企业级微服务架构的IoT云平台
 actionText: 开始使用 →
 actionLink: /pages/a2f161/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
@@ -37,7 +37,7 @@ postList: none
 
 ## ⚡ 反馈与交流
 
-在使用过程中有任何问题和想法，请给我提 [Issue](https://github.com/KouShenhai/KCloud-Platform-Alibaba/issues)。
+在使用过程中有任何问题和想法，请给我提 [Issue](https://github.com/KouShenhai/KCloud-Platform-IoT/issues)。
 你也可以在Issue查看别人提的问题和给出解决方案。
 
 我们的交流群：

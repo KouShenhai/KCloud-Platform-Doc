@@ -5,7 +5,7 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "deploy": "bash deploy.sh",
-    "updateTheme": "yarn remove KCloud-Platform-Alibaba && rm -rf node_modules && yarn && yarn add KCloud-Platform-Alibaba -D",
+    "updateTheme": "yarn remove KCloud-Platform-IoT && rm -rf node_modules && yarn && yarn add KCloud-Platform-IoT -D",
     "editFm": "node utils/editFrontmatter.js"
   },
   "license": "Apache 2.0",
