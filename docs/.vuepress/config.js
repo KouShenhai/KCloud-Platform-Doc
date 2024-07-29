@@ -46,99 +46,16 @@ module.exports = {
             text: '快速上手', link: '/pages/10bfa7/' , items: [
               { text: '一键部署（傻瓜式教程）', link: '/pages/10bfa2/' },
               { text: '项目启动（傻瓜式教程）', link: '/pages/10bfa7/' },
-/*              { text: 'API网关', link: '/pages/192acb/' },
-              { text: '认证授权', link: '/pages/36da89/' },
-              { text: '服务注册&发现', link: '/' },
-              { text: '配置中心', link: '/' },
-              { text: '分布式事务', link: '/'},
-              { text: '多级缓存', link: '/' },
-              { text: '数据推送', link: '/' },
-              { text: '消息队列', link: '/' },
-              { text: '服务熔断&降级', link: '/' },
-              { text: '远程调用', link: '/' },
-              { text: '链路跟踪', link: '/' },
-              { text: '对象存储', link: '/' },
-              { text: '日志分析', link: '/' },
-              { text: '分布式锁', link: '/' },
-              { text: '服务监控', link: '/' },
-              { text: '读写分离&分库分表', link: '/' },
-              { text: '多数据源', link: '/' },
-              { text: '数据库版本控制', link: '/' },
-              { text: '持续集成&交付', link: '/' },
-              { text: '自动化部署', link: '/' },
-              { text: '接口幂等性', link: '/' },
-              { text: '接口安全', link: '/' },
-              { text: 'XSS攻击', link: '/' },
-              { text: '统计报表', link: '/' },*/
-              { text: 'SSL证书（傻瓜式教程）', link: '/pages/10bfa8/' }
-            ]
-          },
-          // {
-          //   text: '领域驱动设计篇', items: [
-          //     { text: 'DDD落地之Seata Saga（一）', link: '/pages/842323/' },
-          //     { text: 'DDD落地之Seata Saga（二）', link: '/pages/854f03/' },
-          //     { text: 'DDD落地之ThreadLocal原理篇（一）', link: '/pages/1e7000/' },
-          //     { text: 'DDD落地之AQS原理篇（一）', link: '/pages/b56e84/' }
-          //   ]
-          // },
-          {
-            text: 'SpringBoot篇', items: [
-              { text: 'SpringBoot自动装配', link: '/pages/1e7002/' }
-            ]
-          },
-          {
-            text: 'Go篇', items: [
+              { text: 'SSL证书（傻瓜式教程）', link: '/pages/10bfa8/' },
+              { text: 'COLA代码规范', link: '/pages/59afe2/' },
               { text: 'Java如何快速转Go', link: '/pages/643da2/' }
-            ]
+              ]
           },
-          {
-            text: '领域驱动设计篇', items: [
-              { text: 'COLA学习之代码规范', link: '/pages/59afe2/' },
-            ]
-          },
-          /*{
-            text: '系统设计', items: [
-              { text: '高可用设计', link: '/' },
-              { text: '多租户设计', link: '/' },
-              { text: '权限设计', link: '/' },
-            ]
-          },
-          {
-            text: '工具使用', items: [
-              { text: 'Git使用', link: '/' },
-              { text: 'Maven使用', link: '/' },
-              { text: 'Docker使用', link: '/' },
-              { text: 'Jenkins使用', link: '/' }
-            ]
-          },
-          {
-            text: '第三方对接', items: [
-              { text: '微信公众号对接', link: '/' }
-            ]
-          },
-          {
-            text: '脚本使用', items: [
-              { text: 'Linux shell脚本使用', link: '/' },
-              { text: 'Lua脚本使用', link: '/' },
-              { text: 'Window bat脚本使用', link: '/' }
-            ]
-          },
-          {
-            text: '技术分享', items: [
-              { text: 'RocketMQ的冒险之旅（先占占位置）', link: '/' }
-            ]
-          },
-          {
-            text: '架构演进', items: [
-              { text: '老寇云平台架构演进（先占占位置）', link: '/' }
-            ]
-          }*/
         ]
       },
       { text: '感悟', link: '/pages/623577/', items: [
           { text: '读《强者，都是含泪奔跑的人》读后感', link: '/pages/623577/' },
-          { text: '修身/养生/情感', link: '/pages/623578/' },
-          { text: '宇宙是一个数据库', link: '/pages/623579/' }
+          { text: '修身/养生/情感', link: '/pages/623578/' }
         ]
       },
       { text: '赞助', link: '/pages/1b12ed/' }
@@ -176,7 +93,7 @@ module.exports = {
     // archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
 
     author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
-      name: 'KCloud-Platform-IoT', // 必需
+        name: 'KCloud-Platform-IoT', // 必需
       href: 'https://github.com/KouShenhai' // 可选的
     },
     social: { // 社交图标，显示于博主信息栏和页脚栏
