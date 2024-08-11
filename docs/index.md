@@ -46,7 +46,7 @@ postList: none
   <tbody>
     <tr>
       <td align="center" valign="middle">
-        <img :src="$withBase('/img/qrcode/qqq.png')" alt="群号: 465450496" class="no-zoom" style="width:120px;margin: 10px;">
+        <img :src="$withBase('/img/二维码/qqq.png')" alt="群号: 465450496" class="no-zoom" style="width:120px;margin: 10px;">
         <p>KCloud-Platform开源交流 QQ群: 465450496</p>
       </td>
     </tr>

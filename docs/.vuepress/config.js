@@ -44,12 +44,28 @@ module.exports = {
           },
           {
             text: '快速上手', link: '/pages/10bfa7/' , items: [
-              { text: '一键部署（傻瓜式教程）', link: '/pages/10bfa2/' },
-              { text: '项目启动（傻瓜式教程）', link: '/pages/10bfa7/' },
-              { text: 'SSL证书（傻瓜式教程）', link: '/pages/10bfa8/' },
-              { text: 'COLA代码规范', link: '/pages/59afe2/' },
-              { text: 'Java如何快速转Go', link: '/pages/643da2/' }
+              { text: '环境搭建', link: '/pages/10bfa2/' },
+              { text: '项目启动', link: '/pages/10bfa7/' }
               ]
+          },
+          {
+            text: '前端指南', link: '', items: []
+          },
+          {
+            text: '后端指南', link: '/pages/59afe2/', items: [
+              {text: 'COLA代码规范', link: '/pages/59afe2/'},
+              { text: 'SSL证书（傻瓜式教程）', link: '/pages/10bfa8/' }
+            ]
+          },
+          {
+            text:'项目部署', link: '', items: [
+
+            ]
+          },
+          {
+            text:'其他', link: '', items: [
+              { text: 'Java如何快速转Go', link: '/pages/643da2/' }
+            ]
           },
         ]
       },
