@@ -56,7 +56,7 @@ module.exports = {
           {
             text: '后端指南', link: '/pages/59afe2/', items: [
               {text: 'COLA代码规范', link: '/pages/59afe2/'},
-              { text: 'SSL证书（傻瓜式教程）', link: '/pages/10bfa8/' }
+              { text: 'SSL证书', link: '/pages/10bfa8/' }
             ]
           },
           {
