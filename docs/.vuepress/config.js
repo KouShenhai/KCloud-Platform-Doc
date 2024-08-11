@@ -56,7 +56,9 @@ module.exports = {
           {
             text: '后端指南', link: '/pages/59afe2/', items: [
               {text: 'COLA代码规范', link: '/pages/59afe2/'},
-              { text: 'SSL证书', link: '/pages/10bfa8/' }
+              { text: 'SSL证书', link: '/pages/10bfa8/' },
+              { text: '一键修改项目模块', link: '/pages/10bfa9/' },
+              { text: '一键生成项目骨架', link: '/pages/1e1e32/' }
             ]
           },
           {
