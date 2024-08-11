@@ -49,7 +49,9 @@ module.exports = {
               ]
           },
           {
-            text: '前端指南', link: '', items: []
+            text: '前端指南', link: '/test1', items: [
+              {text: '测试', link: '/test1'},
+            ]
           },
           {
             text: '后端指南', link: '/pages/59afe2/', items: [
@@ -58,8 +60,8 @@ module.exports = {
             ]
           },
           {
-            text:'项目部署', link: '', items: [
-
+            text:'项目部署', link: '/test2', items: [
+              {text: '测试', link: '/test'},
             ]
           },
           {
