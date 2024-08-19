@@ -59,7 +59,8 @@ module.exports = {
               { text: 'SSL证书', link: '/pages/10bfa8/' },
               { text: '一键修改项目模块', link: '/pages/10bfa9/' },
               { text: '一键生成项目骨架', link: '/pages/1e1e32/' },
-              { text: '一键修改项目版本号', link: '/pages/77f103/' }
+              { text: '一键修改项目版本号', link: '/pages/77f103/' },
+              { text: '一键跳过测试用例', link: '/pages/843853/' }
             ]
           },
           {
